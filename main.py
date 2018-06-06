@@ -4,7 +4,7 @@ from os import system
 import requests
 
 #Aqui va tu API_KEY de https://newsapi.org/
-API_KEY = 'YOUR_API_KEY'
+API_KEY = '5929ee224a0c46ef87152b19e791adc1'
 
 #Este es el url para obtener los datos, cambia la categoria para obtener otros tipos de noticias
 url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey={0}".format(API_KEY)
@@ -13,7 +13,7 @@ url = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=
 active = False
 
 #Aqui cambias al nombre de tu reproductor accesible desde la terminal
-reproductor = 'REPRODUCTOR_NAME'
+reproductor = 'xplayer'
 
 #Bucle principal para obtener noticias con descripciones
 while not active:
